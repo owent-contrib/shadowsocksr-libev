@@ -42,31 +42,31 @@ ss_local_SOURCES = utils.c \
                    local.c \
                    $(sni_src)
 
-#ss_tunnel_SOURCES = utils.c \
-#                    jconf.c \
-#                    json.c \
-#                    encrypt.c \
-#                    udprelay.c \
-#                    cache.c \
-#                    netutils.c \
-#                    tunnel.c
-#
-#ss_server_SOURCES = utils.c \
-#                    netutils.c \
-#                    jconf.c \
-#                    json.c \
-#                    encrypt.c \
-#                    udprelay.c \
-#                    cache.c \
-#                    acl.c \
-#                    resolv.c \
-#                    server.c \
-#                    $(sni_src)
-#
-#ss_manager_SOURCES = utils.c \
-#                     jconf.c \
-#                     json.c \
-#                     manager.c
+ss_tunnel_SOURCES = utils.c \
+                    jconf.c \
+                    json.c \
+                    encrypt.c \
+                    udprelay.c \
+                    cache.c \
+                    netutils.c \
+                    tunnel.c
+
+ss_server_SOURCES = utils.c \
+                    netutils.c \
+                    jconf.c \
+                    json.c \
+                    encrypt.c \
+                    udprelay.c \
+                    cache.c \
+                    acl.c \
+                    resolv.c \
+                    server.c \
+                    $(sni_src)
+
+ss_manager_SOURCES = utils.c \
+                     jconf.c \
+                     json.c \
+                     manager.c
 
 ss_local_LDADD = $(SS_COMMON_LIBS)
 #ss_tunnel_LDADD = $(SS_COMMON_LIBS)

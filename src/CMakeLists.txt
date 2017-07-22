@@ -71,9 +71,9 @@ if (WIN32)
 endif ()
 
 add_executable(ss_local ${SOURCE_FILES_LOCAL})
-#add_executable(ss_tunnel ${SOURCE_FILES_TUNNEL})
-#add_executable(ss_server ${SOURCE_FILES_SERVER})
-#add_executable(ss_manager ${SOURCE_FILES_MANAGER})
+add_executable(ss_tunnel ${SOURCE_FILES_TUNNEL})
+add_executable(ss_server ${SOURCE_FILES_SERVER})
+add_executable(ss_manager ${SOURCE_FILES_MANAGER})
 add_executable(ss_redir ${SOURCE_FILES_REDIR})
 add_library(libshadowsocks-libev ${SOURCE_FILES_LOCAL})
 
